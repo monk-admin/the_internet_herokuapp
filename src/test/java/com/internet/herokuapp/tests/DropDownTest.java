@@ -17,5 +17,5 @@ public class DropDownTest extends TestBase{
     public void dropDownList(){
         new DropDownPage(driver).choseOption(2).verifyChosenOption("Option 2");
     }
-    
+
 }
