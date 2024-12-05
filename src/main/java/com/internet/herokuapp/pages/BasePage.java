@@ -5,6 +5,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
+import java.net.HttpURLConnection;
+import java.net.URL;
+
 public class BasePage {
 
     public WebDriver driver;
@@ -38,6 +41,25 @@ public class BasePage {
 
     public void moveWithJS(int x, int y) {
         js.executeScript("window.scrollBy("+ x + "," + y + ")");
+    }
+
+    public void verifyLinks(String url) {
+
+        try {
+            URL linkUrl = new URL(url);
+
+            //create URL connection and get response code
+            HttpURLConnection connection = (HttpURLConnection) linkUrl.openConnection();
+            connection.setConnectTimeout(5000);
+            connection.connect();
+            if (connection.getResponseCode() >= 400) {
+                System.out.println(url + " - " + connection.getResponseMessage() + " is a broken link!");
+            } else {
+                System.out.println(url + " - " + connection.getResponseMessage());
+            }
+        } catch (Exception e) {
+            System.out.println(url + " - " + e.getMessage() + " Error occurred");
+        }
     }
 
 }
