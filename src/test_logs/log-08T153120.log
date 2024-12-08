@@ -1,0 +1,36 @@
+15:31:20.341 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/monk/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+15:31:23.225 [main] INFO  c.internet.herokuapp.tests.TestBase - Start test: uploadFile
+15:31:23.230 [main] INFO  c.i.herokuapp.pages.utils.MyListener - The locator will find By.cssSelector: [href='/upload']
+15:31:23.230 [main] INFO  c.i.herokuapp.pages.utils.MyListener - *************************************************
+15:31:23.239 [main] INFO  c.i.herokuapp.pages.utils.MyListener - The locator is By.cssSelector: [href='/upload']
+15:31:23.239 [main] INFO  c.i.herokuapp.pages.utils.MyListener - *************************************************
+15:31:23.530 [main] INFO  c.i.herokuapp.pages.utils.MyListener - The locator will find By.id: file-upload
+15:31:23.530 [main] INFO  c.i.herokuapp.pages.utils.MyListener - *************************************************
+15:31:23.543 [main] INFO  c.i.herokuapp.pages.utils.MyListener - The locator is By.id: file-upload
+15:31:23.543 [main] INFO  c.i.herokuapp.pages.utils.MyListener - *************************************************
+15:31:23.563 [main] INFO  c.i.herokuapp.pages.utils.MyListener - The locator will find By.id: file-submit
+15:31:23.563 [main] INFO  c.i.herokuapp.pages.utils.MyListener - *************************************************
+15:31:23.571 [main] INFO  c.i.herokuapp.pages.utils.MyListener - The locator is By.id: file-submit
+15:31:23.571 [main] INFO  c.i.herokuapp.pages.utils.MyListener - *************************************************
+15:31:23.866 [main] INFO  c.i.herokuapp.pages.utils.MyListener - The locator will find By.xpath: //h3[contains(.,'File ploaded!')]
+15:31:23.866 [main] INFO  c.i.herokuapp.pages.utils.MyListener - *************************************************
+15:31:33.876 [main] INFO  c.i.herokuapp.pages.utils.MyListener - The test has a problem
+15:31:33.877 [main] INFO  c.i.herokuapp.pages.utils.MyListener - *************************************************
+15:31:33.877 [main] INFO  c.i.herokuapp.pages.utils.MyListener - Method --> findElement
+15:31:33.877 [main] INFO  c.i.herokuapp.pages.utils.MyListener - *************************************************
+15:31:33.877 [main] INFO  c.i.herokuapp.pages.utils.MyListener - Target exception --> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h3[contains(.,'File ploaded!')]"}
+  (Session info: chrome=131.0.6778.109)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1.1', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [877bc17370c32eddff29f25e1cfede63, findElement {value=//h3[contains(.,'File ploaded!')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.69 (77e2244bbcda..., userDataDir: /var/folders/2p/tt8xd5011ln...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63525}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63525/devtoo..., se:cdpVersion: 131.0.6778.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 877bc17370c32eddff29f25e1cfede63
+15:31:33.877 [main] INFO  c.i.herokuapp.pages.utils.MyListener - *************************************************
+15:31:33.877 [main] INFO  c.i.herokuapp.pages.utils.MyListener - Object target --> ChromeDriver: chrome on mac (877bc17370c32eddff29f25e1cfede63)
+15:31:33.877 [main] INFO  c.i.herokuapp.pages.utils.MyListener - *************************************************
+15:31:33.992 [main] ERROR c.internet.herokuapp.tests.TestBase - Test result: FAILED uploadFile
+15:31:33.993 [main] INFO  c.internet.herokuapp.tests.TestBase - *************************************************************

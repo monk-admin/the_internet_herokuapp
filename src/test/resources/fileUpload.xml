@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Quick3" verbose="1">
+    <test name="Quick3">
+        <classes>
+            <class name="com.internet.herokuapp.tests.FileUploadTest">
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,38 @@
+15:39:23.853 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/monk/QA/the_internet_herokuapp/src/test/resources/dropDownTest.xml
+
+15:39:27.162 [main] INFO  c.internet.herokuapp.tests.TestBase - Start test: dropDownList
+15:39:27.166 [main] INFO  c.i.herokuapp.pages.utils.MyListener - The locator will find By.cssSelector: [href='/dropdown']
+15:39:27.166 [main] INFO  c.i.herokuapp.pages.utils.MyListener - *************************************************
+15:39:27.176 [main] INFO  c.i.herokuapp.pages.utils.MyListener - The locator is By.cssSelector: [href='/dropdown']
+15:39:27.176 [main] INFO  c.i.herokuapp.pages.utils.MyListener - *************************************************
+15:39:27.356 [main] INFO  c.i.herokuapp.pages.utils.MyListener - The locator will find By.id: dropdown
+15:39:27.356 [main] INFO  c.i.herokuapp.pages.utils.MyListener - *************************************************
+15:39:27.372 [main] INFO  c.i.herokuapp.pages.utils.MyListener - The locator is By.id: dropdown
+15:39:27.372 [main] INFO  c.i.herokuapp.pages.utils.MyListener - *************************************************
+15:39:27.375 [main] INFO  c.i.herokuapp.pages.utils.MyListener - The locator will find By.id: dropdown
+15:39:27.375 [main] INFO  c.i.herokuapp.pages.utils.MyListener - *************************************************
+15:39:27.382 [main] INFO  c.i.herokuapp.pages.utils.MyListener - The locator is By.id: dropdown
+15:39:27.382 [main] INFO  c.i.herokuapp.pages.utils.MyListener - *************************************************
+15:39:27.385 [main] INFO  c.i.herokuapp.pages.utils.MyListener - The locator will find By.id: dropdown
+15:39:27.385 [main] INFO  c.i.herokuapp.pages.utils.MyListener - *************************************************
+15:39:27.391 [main] INFO  c.i.herokuapp.pages.utils.MyListener - The locator is By.id: dropdown
+15:39:27.391 [main] INFO  c.i.herokuapp.pages.utils.MyListener - *************************************************
+15:39:27.395 [main] INFO  c.i.herokuapp.pages.utils.MyListener - The locator will find By.id: dropdown
+15:39:27.395 [main] INFO  c.i.herokuapp.pages.utils.MyListener - *************************************************
+15:39:27.401 [main] INFO  c.i.herokuapp.pages.utils.MyListener - The locator is By.id: dropdown
+15:39:27.401 [main] INFO  c.i.herokuapp.pages.utils.MyListener - *************************************************
+15:39:27.439 [main] INFO  c.i.herokuapp.pages.utils.MyListener - The locator will find By.id: dropdown
+15:39:27.439 [main] INFO  c.i.herokuapp.pages.utils.MyListener - *************************************************
+15:39:27.445 [main] INFO  c.i.herokuapp.pages.utils.MyListener - The locator is By.id: dropdown
+15:39:27.445 [main] INFO  c.i.herokuapp.pages.utils.MyListener - *************************************************
+15:39:27.447 [main] INFO  c.i.herokuapp.pages.utils.MyListener - The locator will find By.id: dropdown
+15:39:27.447 [main] INFO  c.i.herokuapp.pages.utils.MyListener - *************************************************
+15:39:27.452 [main] INFO  c.i.herokuapp.pages.utils.MyListener - The locator is By.id: dropdown
+15:39:27.452 [main] INFO  c.i.herokuapp.pages.utils.MyListener - *************************************************
+15:39:27.455 [main] INFO  c.i.herokuapp.pages.utils.MyListener - The locator will find By.id: dropdown
+15:39:27.455 [main] INFO  c.i.herokuapp.pages.utils.MyListener - *************************************************
+15:39:27.460 [main] INFO  c.i.herokuapp.pages.utils.MyListener - The locator is By.id: dropdown
+15:39:27.460 [main] INFO  c.i.herokuapp.pages.utils.MyListener - *************************************************
+15:39:27.482 [main] INFO  c.internet.herokuapp.tests.TestBase - Test result: PASSED dropDownList
+15:39:27.482 [main] INFO  c.internet.herokuapp.tests.TestBase - *************************************************************

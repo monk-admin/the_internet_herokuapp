@@ -1,0 +1,18 @@
+15:22:48.767 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/monk/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+15:22:51.558 [main] INFO  c.internet.herokuapp.tests.TestBase - Start test: hoverOverTheImageTest
+15:22:51.562 [main] INFO  c.i.herokuapp.pages.utils.MyListener - The locator will find By.cssSelector: [href='/hovers']
+15:22:51.562 [main] INFO  c.i.herokuapp.pages.utils.MyListener - *************************************************
+15:22:51.572 [main] INFO  c.i.herokuapp.pages.utils.MyListener - The locator is By.cssSelector: [href='/hovers']
+15:22:51.572 [main] INFO  c.i.herokuapp.pages.utils.MyListener - *************************************************
+15:22:51.830 [Forwarding actions on session 16e13af501783b30e90f6792a3a6717f to remote] INFO  c.i.herokuapp.pages.utils.MyListener - The locator will find By.xpath: (//img[1])[3]
+15:22:51.830 [Forwarding actions on session 16e13af501783b30e90f6792a3a6717f to remote] INFO  c.i.herokuapp.pages.utils.MyListener - *************************************************
+15:22:51.841 [Forwarding actions on session 16e13af501783b30e90f6792a3a6717f to remote] INFO  c.i.herokuapp.pages.utils.MyListener - The locator is By.xpath: (//img[1])[3]
+15:22:51.841 [Forwarding actions on session 16e13af501783b30e90f6792a3a6717f to remote] INFO  c.i.herokuapp.pages.utils.MyListener - *************************************************
+15:22:51.954 [main] INFO  c.i.herokuapp.pages.utils.MyListener - The locator will find By.xpath: //h5[contains(.,'name: user2')]
+15:22:51.955 [main] INFO  c.i.herokuapp.pages.utils.MyListener - *************************************************
+15:22:51.967 [main] INFO  c.i.herokuapp.pages.utils.MyListener - The locator is By.xpath: //h5[contains(.,'name: user2')]
+15:22:51.967 [main] INFO  c.i.herokuapp.pages.utils.MyListener - *************************************************
+15:22:51.976 [main] INFO  c.internet.herokuapp.tests.TestBase - Test result: PASSED hoverOverTheImageTest
+15:22:51.976 [main] INFO  c.internet.herokuapp.tests.TestBase - *************************************************************

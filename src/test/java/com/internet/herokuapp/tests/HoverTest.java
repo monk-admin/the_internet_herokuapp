@@ -17,5 +17,6 @@ public class HoverTest extends TestBase{
     @Test
     public void hoverOverTheImageTest(){
         new HoverPage(driver).chooseUser();
+        new HoverPage(driver).verifyChosenUser();
     }
 }

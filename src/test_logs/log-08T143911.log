@@ -1,0 +1,10 @@
+14:39:11.888 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/monk/Library/Caches/JetBrains/IdeaIC2024.3/temp-testng-customsuite.xml
+
+14:39:14.756 [main] INFO  c.internet.herokuapp.tests.TestBase - Start test: dynamicContent
+14:39:14.761 [main] INFO  c.i.herokuapp.pages.utils.MyListener - The locator will find By.xpath: //a[contains(.,'Dynamic Content')]
+14:39:14.761 [main] INFO  c.i.herokuapp.pages.utils.MyListener - *************************************************
+14:39:14.772 [main] INFO  c.i.herokuapp.pages.utils.MyListener - The locator is By.xpath: //a[contains(.,'Dynamic Content')]
+14:39:14.772 [main] INFO  c.i.herokuapp.pages.utils.MyListener - *************************************************
+14:39:15.064 [main] INFO  c.internet.herokuapp.tests.TestBase - Test result: PASSED dynamicContent
+14:39:15.064 [main] INFO  c.internet.herokuapp.tests.TestBase - *************************************************************

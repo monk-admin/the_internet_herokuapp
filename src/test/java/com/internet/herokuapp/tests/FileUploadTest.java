@@ -16,5 +16,6 @@ public class FileUploadTest extends TestBase{
     @Test
     public void uploadFile(){
         new FileUploadPage(driver).uploadFileToSite("/Users/monk/Tools/Test.jpg");
+        new FileUploadPage(driver).verifyUploadedFile();
     }
 }

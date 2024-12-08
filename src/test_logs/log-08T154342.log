@@ -1,0 +1,22 @@
+15:43:42.437 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/monk/QA/the_internet_herokuapp/src/test/resources/fileUpload.xml
+
+15:43:45.324 [main] INFO  c.internet.herokuapp.tests.TestBase - Start test: uploadFile
+15:43:45.329 [main] INFO  c.i.herokuapp.pages.utils.MyListener - The locator will find By.cssSelector: [href='/upload']
+15:43:45.329 [main] INFO  c.i.herokuapp.pages.utils.MyListener - *************************************************
+15:43:45.339 [main] INFO  c.i.herokuapp.pages.utils.MyListener - The locator is By.cssSelector: [href='/upload']
+15:43:45.339 [main] INFO  c.i.herokuapp.pages.utils.MyListener - *************************************************
+15:43:45.598 [main] INFO  c.i.herokuapp.pages.utils.MyListener - The locator will find By.id: file-upload
+15:43:45.599 [main] INFO  c.i.herokuapp.pages.utils.MyListener - *************************************************
+15:43:45.611 [main] INFO  c.i.herokuapp.pages.utils.MyListener - The locator is By.id: file-upload
+15:43:45.611 [main] INFO  c.i.herokuapp.pages.utils.MyListener - *************************************************
+15:43:45.627 [main] INFO  c.i.herokuapp.pages.utils.MyListener - The locator will find By.id: file-submit
+15:43:45.627 [main] INFO  c.i.herokuapp.pages.utils.MyListener - *************************************************
+15:43:45.636 [main] INFO  c.i.herokuapp.pages.utils.MyListener - The locator is By.id: file-submit
+15:43:45.636 [main] INFO  c.i.herokuapp.pages.utils.MyListener - *************************************************
+15:43:45.939 [main] INFO  c.i.herokuapp.pages.utils.MyListener - The locator will find By.xpath: //h3[contains(.,'File Uploaded!')]
+15:43:45.939 [main] INFO  c.i.herokuapp.pages.utils.MyListener - *************************************************
+15:43:45.953 [main] INFO  c.i.herokuapp.pages.utils.MyListener - The locator is By.xpath: //h3[contains(.,'File Uploaded!')]
+15:43:45.954 [main] INFO  c.i.herokuapp.pages.utils.MyListener - *************************************************
+15:43:45.963 [main] INFO  c.internet.herokuapp.tests.TestBase - Test result: PASSED uploadFile
+15:43:45.964 [main] INFO  c.internet.herokuapp.tests.TestBase - *************************************************************
